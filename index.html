@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+ 
+  <body>
+    
+    <div class="mascara-formulario" onclick="CliqueiNaMascara()"></div>
+
+    <header>
+      <img src="./Assets/logo-header.png" alt="logo-mario" />
+      <a> Home</a>
+      <a>Fale conosco</a>
+      <a>Nossos serviços</a>
+    </header>
+    
+    <div class="container-pai">
+      <div class="Sobre-nos">
+        <img class="Logo-mario" src="./Assets/logo.png" alt="logo" />
+        <p>
+          🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos
+          Com Estilo! 🔧
+        </p>
+        <p>
+          Você já se encontrou em uma situação de emergência com encanamento?
+          Vazamentos inesperados, canos entupidos ou torneiras que não param de
+          pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+          Apresentamos a vocês os encanadores mais famosos do Reino dos
+          Cogumelos - Mario e Luigi!
+        </p>
+
+        <button onclick="CliqueiNoButton()" >Entre em contato</button>
+      </div>
+
+      <div class="Irmãos">
+        <img
+          class="img-mario-luigi"
+          src="./Assets/mario e luigi.png"
+          alt="Mario e luigi"/>
+      </div>
+    </div>
+
+    <div class="container-video">
+      <video src="./Assets/video.mp4" autoplay muted loop></video>
+      <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5581999878924?text=ola" class="link-wpp">
+      <img src="./Assets/whatsapp.png" alt="logo wpp"
+      /></a>
+ 
+<form class="formulario"
+action="https://formcarry.com/s/bCiyQMJCrbx"
+method="POST"
+enctype="multipart/form-data"
+>
+  <input placeholder="Seu nome" type="text" name="Nome">
+  <input placeholder="Seu Email" type="email" name="Email">
+  <textarea placeholder="Digite seu problema aqui..." name="Duvida"></textarea>
+  <button type="submit">Pedir orçamento</button>
+</form>
+
+
+    </body>
+
+    <script src="./script.js"></script>
+
+</html>
